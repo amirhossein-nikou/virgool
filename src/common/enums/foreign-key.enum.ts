@@ -1,0 +1,15 @@
+export enum ForeignKeyEnum{
+    ProfileFk = "profileFk",
+    UserFk = "userFk",
+    BlogFk = "BlogFk",
+    ImageFk = "imageFk",
+    BlogLikeFk = "blogLikeFk",
+    UserLikeFk = "userLikeFk",
+    UserBookmarkFk = "userBookmarkFk",
+    BlogBookmarkFk = "blogBookmarkFk",
+    CommentParentFk = "commentFk",
+    CommentUserFk = "commentFk",
+    CommentBlogFk = "commentFk",
+    BlogCategoryFk = "blogCategoryFk",
+    CategoryFk = "CategoryFk",
+}
